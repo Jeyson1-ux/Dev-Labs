@@ -2,7 +2,8 @@ flask==3.0.3 # This line specifies that the Flask web framework version 3.0.3 sh
 #flask = It is a micro web framework written in Python. It is designed to be simple and easy to use, making it a popular choice for building web applications and APIs. 
 # Flask provides tools and libraries for routing, handling HTTP requests, rendering templates, and managing sessions, among other features. It is often used for small
 # to medium-sized projects and is known for its flexibility and extensibility.
-gunicorn==20.1.1 # This line specifies that the Gunicorn WSGI HTTP server version 20.1.1 should be installed as a dependency for the project.
+gunicorn==21.2.0 # This line specifies that the Gunicorn WSGI HTTP server version 20.1.1 should be installed as a dependency for the project.
 #gunicorn = It is a Python WSGI HTTP server for UNIX. It is a pre-fork worker model, which means it forks multiple worker processes to handle
 # incoming requests. Gunicorn is commonly used to serve Python web applications, particularly those built with frameworks like Flask and Django. 
 # It is known for its simplicity, performance, and ability to handle multiple concurrent requests efficiently.
+
